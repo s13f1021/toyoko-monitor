@@ -2,7 +2,7 @@ name: Toyoko Inn Monitor
 
 on:
   schedule:
-    - cron: "*/10 * * * *"
+    - cron: "*/10 0-14,22-23 * * *"
   workflow_dispatch:
 
 jobs:
